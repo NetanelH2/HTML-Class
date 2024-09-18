@@ -1,0 +1,134 @@
+<!--
+Building a personal portfolio website that includes the following categories:
+
+* Title:
+- Full name
+- A brief introduction of up to 2 lines
+- Profile picture (does not have to be a real photo)
+
+* Personal Background:
+- Age
+- City of residence
+- School education
+- Hobbies and areas of interest
+
+* Skills:
+- List your skills (e.g., programming languages, managerial abilities, etc.) in bullet points
+
+* Contact:
+- Email address
+- Link to your LinkedIn profile if you have one (recommended as a clickable link)
+-->
+<!DOCTYPE html>
+    <head>
+        <title>Personal Portfolio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+            }
+            header {
+                background: #333;
+                color: #fff;
+                padding-top: 30px;
+                min-height: 70px;
+                border-bottom: #77aaff 3px solid;
+            }
+            header h1 {
+                text-align: center;
+                text-transform: uppercase;
+                margin: 0;
+            }
+            .profile-pic {
+                display: block;
+                margin: 20px auto;
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+            }
+            section {
+                margin: 20px 0;
+                padding: 20px;
+                background: #fff;
+                border-radius: 5px;
+            }
+            h2 {
+                text-align: center;
+                color: #333;
+            }
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            ul li {
+                background: #f4f4f4;
+                margin: 5px 0;
+                padding: 10px;
+                border: #ccc 1px solid;
+            }
+            footer {
+                text-align: center;
+                padding: 20px;
+                background: #333;
+                color: #fff;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>John Doe</h1>
+            <p style="text-align: center">
+                A passionate developer and tech enthusiast.
+            </p>
+        </header>
+        <div class="container">
+            <img src="John Doe Image.jpeg" alt="Profile Picture" class="profile-pic" />
+            <section>
+                <h2>Personal Background</h2>
+                <ul>
+                    <li>Age: 25</li>
+                    <li>City of residence: New York</li>
+                    <li>School education: B.Sc. in Computer Science</li>
+                    <li>
+                        Hobbies and areas of interest: Coding, Hiking, Reading
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: JavaScript, Python, Java</li>
+                    <li>Web Development: HTML, CSS, React</li>
+                    <li>Project Management</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Contact</h2>
+                <ul>
+                    <li>Email: johndoe@example.com</li>
+                    <li>
+                        LinkedIn:
+                        <a
+                            href="https://www.linkedin.com/in/johndoe"
+                            target="_blank"
+                            >John Doe</a
+                        >
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
